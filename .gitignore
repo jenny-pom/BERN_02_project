@@ -1,4 +1,5 @@
-/data
+data
 .venv
 intensive_survey_presentation.key
 .DS_Store
+processed_data_analysis.ipynb
