@@ -1,23 +1,26 @@
 [project]
 name = "bern02-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "Plant reproductive efficiency exploratory data analysis and spatial modeling"
 readme = "README.md"
 authors = [
     { name = "pompom", email = "je3384la-s@student.lu.se" }
 ]
-requires-python = ">=3.13"
+requires-python = ">=3.13,<3.14"
 dependencies = [
-    "contextily>=1.7.1",
-    "folium>=0.20.0",
-    "geopandas>=1.2.0",
-    "ipykernel>=7.4.0",
-    "matplotlib>=3.11.2",
-    "numpy>=2.5.4",
-    "pandas>=3.0.6",
-    "seaborn>=0.13.2",
-    "shapely>=2.2.0",
-    "watermark>=2.6.0",
+    "fiona~=1.10.0",
+    "folium~=0.20.0",
+    "geopandas~=1.2.0",
+    "ipykernel~=7.4.0",
+    "matplotlib~=3.11.0",
+    "numpy~=2.2.0",
+    "pandas~=3.0.0",
+    "rasterio~=1.5.0",
+    "scipy~=1.15.0",
+    "seaborn~=0.13.0",
+    "shapely~=2.2.0",
+    "statsmodels~=0.15.0",
+    "watermark~=2.6.0",
 ]
 
 [project.scripts]
